@@ -13,7 +13,8 @@ apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 ## INSTALL SCRIPT 
 Masukkan perintah dibawah untuk menginstall Autoscript Premium by IRZIKISTORE
 ```
-apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/irzikistore2/Apex/main/ubu20-deb10-stable.sh && chmod +x ubu20-deb10-stable.sh && ./ubu20-deb10-stable.sh
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt install -y && apt update -y && apt upgrade -y && wget -q --no-check-certificate https://irzikistore-vip.cloud/ubu20-deb10-stable.sh && chmod +x ubu20-deb10-stable.sh && ./ubu20-deb10-stable.sh
+
 ```
 
 ## `WAJIB IZIN IP, SILAHKAN HUBUNGI ADMIN !`
@@ -23,5 +24,5 @@ IRZIKISTORE :
 ## UPDATE SCRIPT
 Masukkan perintah dibawah jika terdapat informasi pembaruan Script untuk versi yang akan datang
 ```
-wget -q https://raw.githubusercontent.com/irzikistore2/Apex/main/update.sh && chmod +x update.sh && ./update.sh
+wget -q --no-check-certificate https://irzikistore-vip.cloud/update.sh && chmod +x update.sh && ./update.sh
 ```

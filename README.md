@@ -14,7 +14,6 @@ apt update && apt upgrade -y && update-grub && sleep 2 && reboot
 Masukkan perintah dibawah untuk menginstall Autoscript Premium by IRZIKISTORE
 ```
 apt install -y && apt update -y && apt upgrade -y && wget -q https://raw.githubusercontent.com/irzikistore/ScriptVIP/main/ubu20-deb10-stable.sh && chmod +x ubu20-deb10-stable.sh && ./ubu20-deb10-stable.sh
-
 ```
 
 ## `WAJIB IZIN IP, SILAHKAN HUBUNGI ADMIN !`
